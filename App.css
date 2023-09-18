@@ -1,0 +1,38 @@
+
+
+.container{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  padding: 10px;
+  margin: 5px;
+  font-weight: 600;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 228, 180);
+  text-shadow: 2px 2px 5px rgb(49, 47, 47);
+  cursor: pointer;
+}
+
+.add-btn{
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+button:active {
+  background-color: #3e8e6f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.para{
+  font-size: large;
+}
